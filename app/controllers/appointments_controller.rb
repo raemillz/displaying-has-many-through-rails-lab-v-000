@@ -4,4 +4,5 @@ class AppointmentsController < ApplicationController
     @doctor = Doctor.find(params[:id])
     @patient = Patient.find(params[:id])
   end
+  
 end
