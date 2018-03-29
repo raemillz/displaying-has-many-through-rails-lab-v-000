@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180329174204) do
+ActiveRecord::Schema.define(version: 20180329174606) do
 
   create_table "appointments", force: :cascade do |t|
     t.datetime "appointmet_datetime"
